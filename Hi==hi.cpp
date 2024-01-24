@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-	cout << strcmp_case_insensitive("HI", "HI") << endl;
+	cout << strcmp_case_insensitive("PPPPP", "ppppp") << endl;
 	//cout << static_cast<int>('b');
 
 	return 0;
