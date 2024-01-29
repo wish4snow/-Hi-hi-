@@ -27,15 +27,17 @@ int strcmp_case_insensitive (string first_string, string second_string) {
 
 	
 	for (int i = 0; i < limit; i++) {
-		stringInt += static_cast<int>(toLowerCase(first_string[i])) - static_cast<int>(toLowerCase(second_string[i])); // adds 
+		stringInt += static_cast<int>(toLowerCase(first_string[i])) - static_cast<int>(toLowerCase(second_string[i])); // adds the difference of the letter int values together
 
 	} // end of for loop
 
 	if (stringInt > 0) {
 		return 1;
+
 	} else if (stringInt < 0) {
 		return -1;
-	}
+
+	} // end of if staetments
 	
 	return 0;
 }
